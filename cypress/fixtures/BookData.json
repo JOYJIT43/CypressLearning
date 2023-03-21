@@ -1,0 +1,10 @@
+{
+    "method" : "POST",
+    "suburl":"Addbook.php",
+    "Name":"CypressBook18",
+    "Author":"Joyjit Ghosh18",
+    "isbn":"ASDKNSK",
+    "aisle":"1DKKS",
+    "readmethod":"GET",
+    "readsuburl":"GetBook.php?ID="  
+}

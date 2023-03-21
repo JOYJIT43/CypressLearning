@@ -1,0 +1,14 @@
+{
+  "defaultCommandTimeout": 8000,
+  "pageLoadTimeout": 30000,
+  "reporter":"mochawesome",
+  "chromeWebSecurity": false,
+  "env": {
+    "url": "https://rahulshettyacademy.com",
+    "baseapiurl": "http://216.10.245.166/Library/"
+  },
+  "retries": {
+    "runMode": 1
+  },
+  "projectId": "s8nqyu"
+}

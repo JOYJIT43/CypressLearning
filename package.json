@@ -1,0 +1,21 @@
+{
+  "name": "cypresslearning",
+  "version": "1.0.0",
+  "description": "Learning Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "Console_head": "npm run test -- --headed",
+    "Chrome": "npm run test -- --browser chrome",
+    "dashboard": "npm run test -- --record --key d8676f2a-d062-480d-9904-481d1371d3a9 --reporter mochawesome",
+    "apitests": "npm test -- --spec \"cypress/integration/APIAutomation/*\"",
+    "onlymochareport":"npm test -- --reporter mochawesome --spec cypress\\integration\\AngularPracticeTests\\FrameworkTest.js"
+  },
+  "author": "Joyjit Ghosh",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "mocha": "^10.0.0",
+    "mochawesome": "^7.1.3"
+  }
+}

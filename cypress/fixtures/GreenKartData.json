@@ -1,0 +1,6 @@
+{
+    "suburl" : "/seleniumPractise/#/",
+    "input":"ca",
+    "products": ["Carrot","Cashews"],
+    "country":"in"
+}
